@@ -7,11 +7,13 @@
 }
 :root {
   --btn-color: #db4444;
+  --btn-bg: #ee2400;
   --heading: #2b2b2b;
-  --gray: #cccccc;
+  --gray: #8b8383;
   --footer-color: #2f2f2f;
   --overlay: linear-gradient(transparent, #000000);
   --white: #ffffff;
+  --donate-btn-color: #f1eaea;
 }
 .container {
   max-width: 960px;
@@ -66,3 +68,47 @@
   border: none;
 }
 /* donate section  */
+.donate {
+  margin-top: 100px;
+}
+.donate h2 {
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+.donate p {
+  text-align: center;
+  font-size: 20px;
+  margin: 30px;
+}
+.donate-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.donate-buttons .btn {
+  width: 125px;
+  height: 110px;
+  background: #f7f0f0c2;
+  font-weight: 600;
+  color: var(--gray);
+}
+.donate-buttons .btn.active {
+  border: 3px solid var(--btn-bg);
+  color: var(--btn-bg);
+  background: #e0d6d6;
+}
+/* donate input  */
+.donate-input {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+.donate-input input {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid var(--gray);
+  font-size: 22px;
+}
