@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@
   --btn-bg: #ee2400;
   --heading: #2b2b2b;
   --gray: #8b8383;
-  --footer-color: #2f2f2f;
+  --footer-color: #000000;
   --overlay: linear-gradient(transparent, #000000);
   --white: #ffffff;
   --donate-btn-color: #f1eaea;
@@ -230,4 +230,19 @@
   padding: 10px 20px;
   font-size: 20px;
   border-radius: 10px 0 0 10px;
+}
+/* footer section  */
+.footer {
+  background: var(--footer-color);
+  padding: 40px;
+}
+.footer h2 {
+  font-size: 40px;
+  color: var(--btn-color);
+  text-align: center;
+  font-family: "Courgette", cursive;
+}
+.footer p {
+  color: var(--white);
+  text-align: center;
 }
