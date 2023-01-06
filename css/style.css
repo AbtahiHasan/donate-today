@@ -15,10 +15,15 @@
   --white: #ffffff;
   --donate-btn-color: #f1eaea;
 }
+/* common css code  */
 .container {
   max-width: 960px;
   width: 100%;
   margin: auto;
+}
+a {
+  text-decoration: none;
+  color: var(--white);
 }
 /* banner section  */
 .header {
@@ -222,7 +227,7 @@
   justify-content: center;
   background: #e8ecd7;
   padding: 100px;
-  margin: 100px;
+  margin: 50px;
 }
 .input-container input {
   width: 50%;

@@ -1,4 +1,8 @@
 @media (max-width: 1000px) {
+  .donate p {
+    padding: 20px;
+  }
+
   .donate-buttons {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -7,6 +11,24 @@
   }
   .donate-buttons .btn {
     width: 100%;
+  }
+  .donate-input input {
+    width: 90%;
+  }
+  .our-plans {
+    margin: 20px;
+  }
+  .donation-plan p {
+    padding: 20px;
+  }
+  .blog1 {
+    margin: 20px;
+  }
+  .blog2 {
+    margin: 20px;
+  }
+  .get-message p {
+    padding: 20px;
   }
 }
 @media (max-width: 750px) {
@@ -35,5 +57,11 @@
   }
   .input-container {
     margin: 20px 0;
+  }
+}
+@media (max-width: 1000px) {
+  .input-container {
+    display: flex;
+    flex-direction: column;
   }
 }
