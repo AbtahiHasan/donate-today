@@ -227,7 +227,7 @@ a {
   justify-content: center;
   background: #e8ecd7;
   padding: 100px;
-  margin: 50px;
+  margin: 50px 0;
 }
 .input-container input {
   width: 50%;
